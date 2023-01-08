@@ -1,13 +1,8 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
-
 export function App() {
   return (
-    <>
-      <NxWelcome title="components-tailwind" />
-      <div />
-    </>
+    <div className='m-8'>
+      With Tailwind CSS.
+    </div>
   );
 }
 
