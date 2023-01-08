@@ -1,3 +1,4 @@
+import { MantineProvider } from '@mantine/core';
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 
@@ -8,6 +9,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <StrictMode>
-    <App />
+     <MantineProvider withGlobalStyles withNormalizeCSS>
+      <App />
+    </MantineProvider>
   </StrictMode>
 );
